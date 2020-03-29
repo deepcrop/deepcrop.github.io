@@ -5,7 +5,7 @@ url: "https://skoltech-agro.github.io"
 
 
 # Secondary Parameters
-baseurl: "https://skoltech-agro.github.io"
+baseurl: "/"
 # baseurl: "/project-pages"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
