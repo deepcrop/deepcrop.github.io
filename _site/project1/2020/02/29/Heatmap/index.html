@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Page of Digital-agro Skoltech Research Group">
+	<meta property="og:title" content="Heatmap Notebook" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:4000//project-pages//project1/2020/02/29/Heatmap/" />
+<meta property="og:image" content="http://localhost:4000//project-pages/img/home-bg.jpg">
+	
+	
+
+	<meta name="citation_title" content="Project Pages - An Integrated Scientific Blogging Template">
+
+
+<meta name="citation_author" content="Maria Pukalchik">
+
+
+<meta name="citation_author" content="Anna Petrovskaia">
+
+
+<meta name="citation_author" content="Mikhail Gasanov">
+
+
+
+	
+
+	<link rel='shortcut icon' type='image/png' href='/project-pages/favicon.ico' />
+
+    <title>Heatmap Notebook - Digital Agro</title>
+
+    <link rel="canonical" href="http://localhost:4000/project-pages/project1/2020/02/29/Heatmap/">
+	
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="http://localhost:4000/project-pages/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="http://localhost:4000/project-pages/css/clean-blog.css">
+	
+	<!-- Adjust Colors -->
+    <link rel="stylesheet" href="http://localhost:4000/project-pages/colorscheme.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="http://localhost:4000/project-pages/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+	<!-- Math Jax -->
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript"
+	src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+	<script type="text/x-mathjax-config">
+	MathJax.Hub.Config({
+		TeX: { equationNumbers: { autoNumber: "AMS" } }
+	});
+	</script>
+
+	<!--<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.13/d3.min.js" type="text/javascript"></script>-->
+
+    <!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<!-- Custom Theme JavaScript -->
+	<script src="http://localhost:4000/project-pages/js/clean-blog.min.js "></script>
+	
+	
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75881392-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+	
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/project-pages/">Digital Agro</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/project-pages/">Home</a>
+                </li>
+				
+                <li>
+                    <a href="/project-pages/projects/project1/">Project 1</a>
+                </li>
+                
+                
+                <li>
+                    <a href="/project-pages/about/">Courses</a>
+                </li>
+                
+                <li>
+                    <a href="/project-pages/greenhouse/">Green house</a>
+                </li>
+                
+                <li>
+                    <a href="/project-pages/search/">Search</a>
+                </li>
+                
+                <li>
+                    <a href="/project-pages/members/">Members</a>
+                </li>
+                
+                <li>
+                    <a href="/project-pages/mentions/">Community Impact</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/project-pages/img/home-bg.jpg');">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading" style="padding: 30px 0">
+                    <h1>Heatmap Notebook</h1>
+                    
+                    <h2 class="subheading">Some tips how to plot heatmap for soil</h2>
+                    
+                    <span class="meta">Posted by Mikhail Gasanov Ivan Matvienko on February 29, 2020</span>	
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+	
+	
+		
+	
+
+<!-- Also Interesting -->
+
+
+
+	
+	 
+	
+	
+			
+		
+			
+		
+	
+	
+			
+		
+			
+		
+	
+	
+			
+		
+			
+		
+	
+	
+			
+		
+			
+		
+	
+	
+	
+
+	
+	
+	
+
+	
+	 
+	
+	
+		 
+		
+		<div class="float-right">
+		<div class="relevantpost" style="padding: 10px">
+		
+		
+		<h4> You may find interesting: </h4> 
+		
+		<hr class="style-one">
+		
+		<a href="/project-pages/project1/2016/05/01/New-Notebook/"><h2 class="post-title"> New Notebook</h2></a>
+		
+		
+			<h4 class="post-subtitle">Showcasing Jupyter Notebook Translator Layout</h4>
+		
+		
+		<p class="post-meta" style="margin-top: 5px;margin-bottom:5px; font-size: 0.8em">Posted by Ahmet Cecen on May 1, 2016</p>
+		
+		<div class="notepad-index-post-tags" style="">
+		<a href="/project-pages/search/index.html#jupyter" title="Other posts from the Jupyter tag">Jupyter</a>&nbsp;<a href="/project-pages/search/index.html#workflows" title="Other posts from the Workflows tag">Workflows</a>&nbsp;<a href="/project-pages/search/index.html#template" title="Other posts from the Template tag">Template</a>
+		</div> 
+		
+		
+		
+		
+	
+			
+		
+			
+		
+	
+	
+			
+		
+			
+		
+	
+	
+	
+
+	
+	 
+	
+	
+			
+		
+			
+		
+	
+	
+			
+		
+			
+		
+	
+	
+	
+
+
+		</div>
+		</div>
+
+<!-- Post Content -->
+<style>
+img {
+	display:block;
+	max-width:  100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media only screen and (min-width: 1000px) {
+img {
+	-moz-transition:-moz-transform 0.5s ease-in; 
+	-webkit-transition:-webkit-transform 0.5s ease-in; 
+	-o-transition:-o-transform 0.5s ease-in;
+}
+img:active{
+	-moz-transform:scale(1.2); 
+	-webkit-transform:scale(1.2);
+	-o-transform:scale(1.2);
+}
+}
+
+@media only screen and (min-width: 1250px) {
+img {
+	-moz-transition:-moz-transform 0.5s ease-in; 
+	-webkit-transition:-webkit-transform 0.5s ease-in; 
+	-o-transition:-o-transform 0.5s ease-in;
+}
+img:active{
+	-moz-transform:scale(1.5); 
+	-webkit-transform:scale(1.5);
+	-o-transform:scale(1.5);
+}
+}
+
+@media only screen and (min-width: 1500px) {
+img {
+	-moz-transition:-moz-transform 0.5s ease-in; 
+	-webkit-transition:-webkit-transform 0.5s ease-in; 
+	-o-transition:-o-transform 0.5s ease-in;
+}
+img:active{
+	-moz-transform:scale(2); 
+	-webkit-transform:scale(2);
+	-o-transform:scale(2);
+}
+}
+</style>
+
+<article>
+    <div id="content" class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+
+
+
+
+
+
+
+
+<script src="/project-pages/js/mermaid.min.js"></script>
+<link rel="stylesheet" href="/project-pages/css/mermaid.forest.css">
+<script>mermaid.initialize({startOnLoad:true});</script>
+
+<!-- Get Content for This Post and Split at Pound Signs to Find Headers -->
+
+
+
+
+
+<!-- Encapsulate in Capture to Handle the Whitespace and Allow Commenting -->
+
+
+<!-- Make the Graph -->
+<h1> Workflow Overview </h1>
+
+<!-- Strip HTML and Seperate at Line Breaks -->
+
+
+
+<!-- Strip Each Line of Whitespace and Only Keep Lines Longer than 3 -->
+<div class="mermaid" id="mermaidworkflow" style="margin-left:100px">
+
+graph TB
+
+
+
+subgraph  os.environ["PATH"] += os.pathsep + '/usr/local/texlive/2019/bin/x86_64-darwin'
+
+
+
+end
+
+
+
+subgraph  to conform with acmart style
+
+
+
+end
+
+
+
+subgraph  see plt.style.available
+
+
+
+end
+
+
+
+subgraph  fig.write_image('Heatmap_horizonts_S1.svg')
+
+
+
+end
+
+
+
+subgraph  fig.update_yaxes(autorange='reversed')
+
+
+
+end
+
+</div>
+
+
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">scipy</span>
+<span class="kn">import</span> <span class="nn">matplotlib</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">genfromtxt</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">pandas</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="n">plt</span>
+<span class="kn">import</span> <span class="nn">os</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="kn">import</span> <span class="nn">plotly.offline</span> <span class="k">as</span> <span class="n">py</span>
+<span class="kn">import</span> <span class="nn">plotly.graph_objs</span> <span class="k">as</span> <span class="n">go</span>
+<span class="kn">from</span> <span class="nn">numpy</span> <span class="kn">import</span> <span class="n">genfromtxt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+<span class="kn">from</span> <span class="nn">plotly.subplots</span> <span class="kn">import</span> <span class="n">make_subplots</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="o">%</span><span class="n">matplotlib</span> <span class="n">inline</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">(</span><span class="s">'seaborn'</span><span class="p">)</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">available</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="c1"># os.environ["PATH"] += os.pathsep + '/usr/local/texlive/2019/bin/x86_64-darwin'
+</span><span class="k">print</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">getenv</span><span class="p">(</span><span class="s">"PATH"</span><span class="p">))</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">lgndsize</span> <span class="o">=</span> <span class="s">'x-large'</span>
+<span class="n">fontsize</span> <span class="o">=</span> <span class="s">'xx-large'</span>
+<span class="n">params</span> <span class="o">=</span> <span class="p">{</span><span class="s">'text.usetex'</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+          <span class="s">'text.latex.preamble'</span><span class="p">:</span> <span class="p">[</span> <span class="c1"># to conform with acmart style
+</span>              <span class="s">r'\usepackage[T1]{fontenc}'</span><span class="p">,</span>
+              <span class="s">r'\usepackage[libertine]{newtxmath}'</span><span class="p">,</span>
+              <span class="s">r'\usepackage{libertine}'</span>
+          <span class="p">],</span>
+          <span class="s">'font.weight'</span><span class="p">:</span> <span class="s">'regular'</span><span class="p">,</span>
+          <span class="s">'legend.fontsize'</span><span class="p">:</span> <span class="n">lgndsize</span><span class="p">,</span>         
+          <span class="s">'axes.labelsize'</span><span class="p">:</span> <span class="n">fontsize</span><span class="p">,</span>
+          <span class="s">'axes.titlesize'</span><span class="p">:</span> <span class="n">fontsize</span><span class="p">,</span>
+          <span class="s">'xtick.labelsize'</span><span class="p">:</span> <span class="n">lgndsize</span><span class="p">,</span>
+          <span class="s">'ytick.labelsize'</span><span class="p">:</span> <span class="n">lgndsize</span><span class="p">,</span>
+         <span class="p">}</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">style</span><span class="o">.</span><span class="n">use</span><span class="p">([</span><span class="s">'seaborn-paper'</span><span class="p">])</span> <span class="c1"># see plt.style.available
+</span><span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">params</span><span class="p">)</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">df_soybean</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">'../SA_6_param/Soybean-S1-6P.csv'</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s">';'</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+<span class="n">df_soybean_conf</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s">'../SA_6_param/Soybean-S1_conf-6P.csv'</span><span class="p">,</span> <span class="n">delimiter</span><span class="o">=</span><span class="s">';'</span><span class="p">,</span> <span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">names_for_legend</span><span class="o">=</span><span class="p">(</span><span class="s">'sugar-beet-2011'</span><span class="p">,</span> <span class="s">'spring-barley-2012'</span><span class="p">,</span> <span class="s">'sugar-beet-2014'</span><span class="p">,</span>
+       <span class="s">'soybean-000-2015'</span><span class="p">,</span> <span class="s">'sugar-beet-2017'</span><span class="p">)</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">csv_list_horisonts</span> <span class="o">=</span><span class="p">[</span><span class="s">'Si_BD_Hor.csv'</span><span class="p">,</span> <span class="s">'Si_Clay_Hor.csv'</span><span class="p">,</span>\
+          <span class="s">'Si_CN_Hor.csv'</span><span class="p">,</span> <span class="s">'Si_pH_Hor.csv'</span><span class="p">,</span> <span class="s">'Si_Sand_Hor.csv'</span><span class="p">,</span><span class="s">'Si_SOC_Hor.csv'</span><span class="p">]</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">csv_list_horisonts_ST</span> <span class="o">=</span><span class="p">[</span><span class="s">'ST_BD_Hor.csv'</span><span class="p">,</span> <span class="s">'ST_Clay_Hor.csv'</span><span class="p">,</span>\
+          <span class="s">'ST_CN_Hor.csv'</span><span class="p">,</span> <span class="s">'ST_pH_Hor.csv'</span><span class="p">,</span> <span class="s">'ST_Sand_Hor.csv'</span><span class="p">,</span><span class="s">'ST_SOC_Hor.csv'</span><span class="p">]</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">df_BD</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_list_horisonts</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">delimiter</span><span class="o">=</span><span class="s">','</span><span class="p">,</span><span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">skiprows</span><span class="o">=</span><span class="p">[</span><span class="mi">9</span><span class="p">])</span>
+<span class="n">df_Clay</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_list_horisonts</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">delimiter</span><span class="o">=</span><span class="s">','</span><span class="p">,</span><span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">skiprows</span><span class="o">=</span><span class="p">[</span><span class="mi">9</span><span class="p">])</span>
+<span class="n">df_CN</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_list_horisonts</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span><span class="n">delimiter</span><span class="o">=</span><span class="s">','</span><span class="p">,</span><span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">skiprows</span><span class="o">=</span><span class="p">[</span><span class="mi">9</span><span class="p">])</span>
+<span class="n">df_pH</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_list_horisonts</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span><span class="n">delimiter</span><span class="o">=</span><span class="s">','</span><span class="p">,</span><span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">skiprows</span><span class="o">=</span><span class="p">[</span><span class="mi">9</span><span class="p">])</span>
+<span class="n">df_Sand</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_list_horisonts</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span><span class="n">delimiter</span><span class="o">=</span><span class="s">','</span><span class="p">,</span><span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">skiprows</span><span class="o">=</span><span class="p">[</span><span class="mi">9</span><span class="p">])</span>
+<span class="n">df_SOC</span><span class="o">=</span><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">csv_list_horisonts</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span><span class="n">delimiter</span><span class="o">=</span><span class="s">','</span><span class="p">,</span><span class="n">index_col</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="n">skiprows</span><span class="o">=</span><span class="p">[</span><span class="mi">9</span><span class="p">])</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">df_pH</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span>
+<span class="n">df_CN</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="n">value</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">inplace</span><span class="o">=</span><span class="bp">True</span><span class="p">)</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">df_CN</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">new_df_BD</span><span class="o">=</span><span class="n">df_BD</span><span class="o">.</span><span class="n">sort_index</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">new_df_Clay</span><span class="o">=</span><span class="n">df_Clay</span><span class="o">.</span><span class="n">sort_index</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">new_df_Sand</span><span class="o">=</span><span class="n">df_Sand</span><span class="o">.</span><span class="n">sort_index</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">new_df_pH</span><span class="o">=</span><span class="n">df_pH</span><span class="o">.</span><span class="n">sort_index</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">new_df_CN</span><span class="o">=</span><span class="n">df_CN</span><span class="o">.</span><span class="n">sort_index</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="n">new_df_SOC</span><span class="o">=</span><span class="n">df_SOC</span><span class="o">.</span><span class="n">sort_index</span><span class="p">(</span><span class="n">ascending</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">skala_depth</span><span class="o">=</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">40</span><span class="p">,</span> <span class="mi">50</span><span class="p">,</span> <span class="mi">60</span><span class="p">,</span> <span class="mi">70</span><span class="p">,</span> <span class="mi">80</span><span class="p">,</span> <span class="mi">90</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">fig</span> <span class="o">=</span> <span class="n">make_subplots</span><span class="p">(</span><span class="n">rows</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">cols</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span>
+                    <span class="n">subplot_titles</span><span class="o">=</span><span class="p">(</span><span class="s">"Bulk Density"</span><span class="p">,</span><span class="s">"Clay"</span><span class="p">,</span> \
+                                    <span class="s">"Sand"</span><span class="p">,</span> <span class="s">"pH"</span><span class="p">,</span> <span class="s">"C:N ratio"</span><span class="p">,</span> <span class="s">"SOC"</span><span class="p">))</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Heatmap</span><span class="p">(</span>
+        <span class="n">z</span><span class="o">=</span><span class="n">new_df_BD</span><span class="p">,</span>
+        <span class="n">x</span><span class="o">=</span><span class="n">new_df_BD</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span>
+        <span class="n">y</span><span class="o">=</span><span class="n">new_df_BD</span><span class="o">.</span><span class="n">index</span><span class="p">,</span>
+        <span class="n">showscale</span><span class="o">=</span><span class="bp">False</span><span class="p">),</span>
+        <span class="n">row</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Heatmap</span><span class="p">(</span>
+        <span class="n">z</span><span class="o">=</span><span class="n">new_df_Clay</span><span class="p">,</span>
+        <span class="n">x</span><span class="o">=</span><span class="n">new_df_Clay</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span>
+        <span class="n">y</span><span class="o">=</span><span class="n">new_df_Clay</span><span class="o">.</span><span class="n">index</span><span class="p">,</span>
+        <span class="n">showscale</span><span class="o">=</span><span class="bp">False</span><span class="p">),</span>
+        <span class="n">row</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Heatmap</span><span class="p">(</span>
+        <span class="n">z</span><span class="o">=</span><span class="n">new_df_Sand</span><span class="p">,</span>
+        <span class="n">x</span><span class="o">=</span><span class="n">new_df_Sand</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span>
+        <span class="n">y</span><span class="o">=</span><span class="n">new_df_Sand</span><span class="o">.</span><span class="n">index</span><span class="p">,</span>
+        <span class="n">showscale</span><span class="o">=</span><span class="bp">False</span><span class="p">),</span>
+               <span class="n">row</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Heatmap</span><span class="p">(</span>
+        <span class="n">z</span><span class="o">=</span><span class="n">new_df_pH</span><span class="p">,</span>
+        <span class="n">x</span><span class="o">=</span><span class="n">new_df_pH</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span>
+        <span class="n">y</span><span class="o">=</span><span class="n">new_df_pH</span><span class="o">.</span><span class="n">index</span><span class="p">,</span>
+        <span class="n">showscale</span><span class="o">=</span><span class="bp">False</span><span class="p">),</span>
+               <span class="n">row</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Heatmap</span><span class="p">(</span>
+        <span class="n">z</span><span class="o">=</span><span class="n">new_df_CN</span><span class="p">,</span>
+        <span class="n">x</span><span class="o">=</span><span class="n">new_df_CN</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span>
+        <span class="n">y</span><span class="o">=</span><span class="n">new_df_CN</span><span class="o">.</span><span class="n">index</span><span class="p">,</span>
+        <span class="n">showscale</span><span class="o">=</span><span class="bp">False</span><span class="p">),</span>
+               <span class="n">row</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">add_trace</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Heatmap</span><span class="p">(</span>
+        <span class="n">z</span><span class="o">=</span><span class="n">new_df_SOC</span><span class="p">,</span>
+        <span class="n">x</span><span class="o">=</span><span class="n">new_df_SOC</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span>
+        <span class="n">y</span><span class="o">=</span><span class="n">new_df_SOC</span><span class="o">.</span><span class="n">index</span><span class="p">,</span>
+        <span class="n">autocolorscale</span><span class="o">=</span><span class="bp">False</span><span class="p">),</span>
+        <span class="n">row</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">3</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_xaxes</span><span class="p">(</span><span class="n">tickvals</span><span class="o">=</span><span class="p">[],</span> <span class="n">row</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="n">autorange</span><span class="o">=</span><span class="s">'reversed'</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s">'Depth, cm'</span><span class="p">,</span> <span class="n">row</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_yaxes</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="s">'Depth, cm'</span><span class="p">,</span> <span class="n">row</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span><span class="n">col</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">fig</span><span class="o">.</span><span class="n">update_layout</span><span class="p">(</span> <span class="n">font</span><span class="o">=</span><span class="nb">dict</span><span class="p">(</span>
+        <span class="n">family</span><span class="o">=</span><span class="s">"Roman, serif"</span><span class="p">,</span>
+        <span class="n">size</span><span class="o">=</span><span class="mi">12</span><span class="p">,</span>
+        <span class="n">color</span><span class="o">=</span><span class="s">"black"</span><span class="p">))</span>
+
+<span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+<span class="c1"># fig.write_image('Heatmap_horizonts_S1.svg')</span></code></pre></figure>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">fig</span> <span class="o">=</span> <span class="n">go</span><span class="o">.</span><span class="n">Figure</span><span class="p">(</span><span class="n">go</span><span class="o">.</span><span class="n">Heatmap</span><span class="p">(</span>
+        <span class="n">z</span><span class="o">=</span><span class="n">new_df_BD</span><span class="p">,</span>
+        <span class="n">x</span><span class="o">=</span><span class="n">new_df_BD</span><span class="o">.</span><span class="n">columns</span><span class="p">,</span>
+        <span class="n">y</span><span class="o">=</span><span class="n">skala_depth</span><span class="p">))</span>
+<span class="c1"># fig.update_yaxes(autorange='reversed')
+</span><span class="n">fig</span><span class="o">.</span><span class="n">show</span><span class="p">()</span></code></pre></figure>
+
+
+
+<hr>
+
+<ul class="pager">
+	
+	<li class="previous">
+		<a href="/project-pages/project1/2016/05/01/New-Notebook/" data-toggle="tooltip" data-placement="top" title="New Notebook">&larr; Previous Post</a>
+	</li>
+	
+	
+	<li class="next">
+		<a href="/project-pages/project1/2020/03/29/Sensitivity-Crop-Model/" data-toggle="tooltip" data-placement="top" title="Sensitivity of Crop Model">Next Post &rarr;</a>
+	</li>
+	
+</ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+<!-- <div class="container" style="padding-right: 50px;padding-left: 50px;">
+<div class="row">
+<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1" id="disqus_thread">
+
+</div>
+</div>
+</div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = '';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+ -->
+
+<hr>
+
+
+
+
+	
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/project-pages/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    <li>
+                        <a href="https://github.com/projectpages/project-pages">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+					
+                    <li>
+                        <a href="https://github.com/projectpages/project-pages/issues">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-exclamation fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+		    <li>
+                        <a href="https://github.com/projectpages/project-pages/wiki/">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-info fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/projectpages/project-pages/fork">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-code-fork fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    				
+                </ul>
+                <p class="copyright text-muted"> Copyright © <a href="http://mishagrol.github.io/" target="_blank">Digital Agro Group</a>,  <a href="https://github.com/projectpages" target="_blank">Project Pages</a> 2016. </p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+</body>
+
+</html>

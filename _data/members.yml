@@ -1,0 +1,27 @@
+# Members
+
+- name: Maria Pukalchik
+  role: Data Scientist / Earth Science
+  img: ../img/MariaPukalchik.jpg
+  github: ahmetcecen
+  gplus: https://scholar.google.ru/citations?user=KoF5RkAAAAAJ&hl=en
+  bio: Dr. Mariia Pukalchik received the specialist qualification in Analytical chemistry from the Vyatka State University in 2009, and PhD in Ecology in Lomonosov Moscow State University, Faculty of Soil Science in 2013. 
+  url: https://faculty.skoltech.ru/people/mariiapukalchik
+  visible: true
+   
+- name: Anna Petrovskaia
+  role: Machine Learning / Geo Science
+  img: ../img/AnnaPetrovskaiya.jpeg
+  github: petrovskaia
+  gplus: https://scholar.google.ru/citations?hl=en&user=tXIT-DsAAAAJ
+  bio: Anna is a PhD student in the CDISE, Skoltech. Expert in map soil science. 
+  url: https://www.researchgate.net/profile/Anna_Petrovskaya2
+  visible: true
+  
+- name: Mikhail Gasanov 
+  role: Soil Science / Math models
+  img: ../img/MikhailGasanov.jpg
+  github: mishagrol
+  bio: Expert in any problems.
+  url: https://www.researchgate.net/profile/Mikhail_Gasanov4
+  visible: true
