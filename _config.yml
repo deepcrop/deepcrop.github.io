@@ -1,7 +1,7 @@
 # Site settings
 title: Digital Agro
-description: "Page of Digital-agro Skoltech Research Group"
-url: "https://skoltech-agro.github.io"
+description: "Page of DeepCrop CDISE Skoltech Research Group"
+url: "https://deepcro.github.io"
 
 
 # Secondary Parameters
@@ -12,8 +12,8 @@ headercolor: "#FFFFFF"
 logo: /img/logos/skoltech.png
 
 # Tertiary Parameters
-github_username:  mishagrol
-project_repository: skoltech-agro
+github_username:  deepcrop
+project_repository: deepcrop
 # disqus_shortname: project-pages
 g-analytics: UA-75881392-1
 altmetric: true
@@ -47,7 +47,7 @@ plugins:
 # Prose Settings
 prose:
   ignore: ['feed.xml', '/stl', '/ply', '/js', '/plugin', '/lib', '/projectors', '_layouts', '/_includes', 'Gruntfile.js', 'package.json', 'proselinks.jsonp', 'ppanchor.matin', '.gitignore', '/search', '/css', '/img', 'favicon.png','_data/*.json','LICENSES.md','README.md','colorscheme.scss','members.html','mentions.html','index.html']
-  siteurl: 'https://skoltech-agro.github.io'
+  siteurl: 'https://deepcrop.github.io'
   ispp: true
   media: 'img'
   metadata:
